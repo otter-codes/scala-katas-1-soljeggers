@@ -11,7 +11,8 @@ import scala.io.StdIn
 object countOdds extends App {
 
   val num = StdIn.readLine("What is your final number? ").toInt
-  val EvenNumbers = List.range(0, num ,2)
-  print(EvenNumbers)
+  val oddNumbers = List.range(1, num ,2)
+  print(oddNumbers)
+
 
 }
