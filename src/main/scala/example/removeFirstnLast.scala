@@ -9,10 +9,14 @@ import scala.io.StdIn
 
 object removeFirstnLast extends App {
 
+
   val input = StdIn.readLine("Input a word, I'll remove the first and last character \n")
-  val x = input.slice(1, input.length -1)
+    val x = input.slice(1, input.length -1)
   println(x)
 
+//  val input = StdIn.readLine("Input a word, I'll remove the first and last character \n")
+////  val newNum = (removeSpace(input))
+//  println(newNum)
 
 //   def removeSpace(input: String): String =
 //    if (input.length <= 2) {
@@ -20,6 +24,7 @@ object removeFirstnLast extends App {
 //    } else {
 //      input.substring(1, input.length - 1)
 //    }
-//  }
+
+
 
 }
